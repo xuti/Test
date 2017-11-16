@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button fx:id="manage_customer_btn" layoutX="30.0" layoutY="100.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onAction="#loadSecond" text="거래처 관리" />
+      <Button layoutX="30.0" layoutY="225.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" text="구매 결의서" />
+      <Button layoutX="30.0" layoutY="350.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" text="주문 내역" />
+      <Label layoutX="439.0" layoutY="95.0" text="MTS SYSTEM">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="461.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@21562F3A58E4DB9A0D4B49.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="439.0" layoutY="385.0" text="업데이트 정보">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="592.0" layoutY="385.0" text="버전 정보">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
